@@ -26,7 +26,10 @@ The iconfig command configures kernel-resident network interfaces at boot time. 
 ### nslookup
 A user can enter a host name and find the corresponding IP address with nslookup. It can also help find the host name.
 ### speedtest-cli
-curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
+Command line interface for testing internet bandwidth
+First install with
+sudo apt install speedtest-cli
+
 
 
 

@@ -25,14 +25,3 @@ The traceroute function determines and records a route through the internet betw
 The iconfig command configures kernel-resident network interfaces at boot time. It is usually only needed when debugging or during system tuning.
 ### nslookup
 A user can enter a host name and find the corresponding IP address with nslookup. It can also help find the host name.
-
-
-
-
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```

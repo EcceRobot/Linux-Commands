@@ -1,0 +1,2 @@
+df
+This command displays the amount of disk space available on the file system containing each file name argument. With no file name, the df command shows the available space on all the currently mounted file systems.

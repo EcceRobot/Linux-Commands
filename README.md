@@ -96,5 +96,5 @@ The command >> will append the result, without deleting the previuos content of 
 ## SSH
 > sudo ssh -p port_number ip_address -l user_name
 
-
+~~-------------------------------------------------------------------------------------------------------------------------~~
 Learn markdown syntax at https://guides.github.com/features/mastering-markdown/

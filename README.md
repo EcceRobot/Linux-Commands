@@ -1,7 +1,7 @@
 # Linux-Commands
 
 ## Status
-### Check os version
+### Check OS version
 Several modes:
 > cat /etc/os-release
 

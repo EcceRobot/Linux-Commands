@@ -55,6 +55,11 @@ Start, Stop and Restart
 > sudo apt autoremove
 > sudo apt clean
 
+## File
+### find
+> find / -iname "nome_file"
+> find / -iname "'*.csv*'"
+> find / -size +1000M -iname "nome_file"
 
 ## Terminal
 ### pwd

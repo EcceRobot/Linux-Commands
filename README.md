@@ -32,7 +32,7 @@ First install with
 sudo apt install speedtest-cli
 
 
-##Log
+## Log
 ### > and >>
 If you want to store the output of a cli command into a file you can use > or >>:
 ifconfig > log.txt

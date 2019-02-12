@@ -47,6 +47,7 @@ Start, Stop and Restart
 > sudo service _name_of_the_service_ restart
 
 ## Packages
+### apt
 > sudo apt update
 
 > sudo apt upgrade
@@ -60,6 +61,9 @@ Start, Stop and Restart
 > sudo apt autoremove
 
 > sudo apt clean
+
+### dpkg
+> sudo dpkg -i _package_name_.deb
 
 ## File
 ### find

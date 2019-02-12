@@ -67,7 +67,7 @@ Start, Stop and Restart
 
 > find / -iname "*.csv"
 
-> find / -size +1000M -iname "nome_file"
+> find / -size +1000M -iname "*"
 
 ## Terminal
 ### pwd

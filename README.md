@@ -40,9 +40,12 @@ First install with
 ## Log
 ### > and >>
 If you want to store the output of a cli command into a file you can use >.
+
 > speedtest-cli --csv > speedtest-cli-log.txt
+
 will store the results into the file.
 The command >> will append the result, without deleting the previuos content of the file.
+
 > speedtest-cli --csv >> speedtest-cli-log.txt
 
 

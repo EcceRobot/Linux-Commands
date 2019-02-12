@@ -63,11 +63,22 @@ Start, Stop and Restart
 
 ## File
 ### find
-> find / -iname "nome_file"
+Cercare file per nome, non case sensitive
+> find / -iname _nome_file_
 
+Cercare file per nome, case sensitive
+> find / -name _nome_file_
+
+Cercare file con nome contenente una parte indicata
 > find / -iname "*.csv"
 
+Cercare file per dimensione
+Il comendo seguente trova tutti i file, con qualunque nome, che abbiano dimensioni maggiori di 1000M
 > find / -size +1000M -iname "*"
+
+Cerca file contenti la stringa indicata nel percorso indicato
+> grep -Iri 'cane' /home
+
 
 ## Terminal
 ### pwd

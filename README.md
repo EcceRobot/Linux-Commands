@@ -1,6 +1,6 @@
 # Linux-Commands
 
-## Status
+## System
 ### Check OS version
 Several modes:
 > lsb_release -a
@@ -43,11 +43,23 @@ Start, Stop and Restart
 > sudo service _name_of_the_service_ stop
 > sudo service _name_of_the_service_ restart
 
-## File system
+## Packages
+> sudo apt update
+> sudo apt upgrade
+> sudo apt install _package_name_
+> sudo apt remove _package_name_
+> sudo apt purge _package_name_
+> sudo apt autoremove
+> sudo apt clean
+
+
+## Terminal
 ### pwd
 The print working directory command displays the name of the current working directory.
 ### history
 The history function shows all the commands used since the start of the current session.
+### clear
+The terminal screen gets cleared.
 
 ## User management
 ### passwd

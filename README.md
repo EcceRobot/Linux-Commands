@@ -12,14 +12,14 @@ TOP can sort tasks by CPU usage, memory usage and runtime.
 
 ## File system
 ### pwd
-The print working directory (pwd) command displays the name of the current working directory.
+The print working directory command displays the name of the current working directory.
 ### history
 The history function shows all the commands used since the start of the current session.
 
 ## User management
 ### passwd
 Admins use passwd to update a user's current password.
-Es: sudo passwd new-user
+> sudo passwd new-user
 
 ## Networking
 ### traceroute
@@ -39,11 +39,11 @@ First install with
 
 ## Log
 ### > and >>
-If you want to store the output of a cli command into a file you can use > or >>:
-ifconfig > log.txt
+If you want to store the output of a cli command into a file you can use >.
+> speedtest-cli --csv > speedtest-cli-log.txt
 will store the results into the file.
 The command >> will append the result, without deleting the previuos content of the file.
-
+> speedtest-cli --csv >> speedtest-cli-log.txt
 
 
 Learn markdown syntax at https://guides.github.com/features/mastering-markdown/

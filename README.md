@@ -1,6 +1,16 @@
 # Linux-Commands
 
 ## Status
+### Check os version
+Several modes:
+> cat /etc/os-release
+
+> lsb_release -a
+
+> hostnamectl
+
+> uname -r
+
 ### df
 This command displays the amount of disk space available on the file system containing each file name argument. 
 

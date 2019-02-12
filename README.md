@@ -17,6 +17,7 @@ The history function shows all the commands used since the start of the current 
 ## User management
 ### passwd
 Admins use passwd to update a user's current password.
+Es: sudo passwd new-user
 
 ## Networking
 ### traceroute
@@ -31,6 +32,12 @@ First install with
 sudo apt install speedtest-cli
 
 
+##Log
+### > and >>
+If you want to store the output of a cli command into a file you can use > or >>:
+ifconfig > log.txt
+will store the results into the file.
+The command >> will append the result, without deleting the previuos content of the file.
 
 
 

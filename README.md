@@ -95,6 +95,13 @@ The command >> will append the result, without deleting the previuos content of 
 > sudo ssh -p _port_number_ _ip_address_ -l _user_name_
 
 
+
+## Running Linux in Virtualbox 
+### Shared folder permissions
+> sudo adduser _user_name_ vboxsf
+
+
+
 ##
 
 Learn markdown syntax at https://guides.github.com/features/mastering-markdown/

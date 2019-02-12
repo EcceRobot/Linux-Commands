@@ -48,17 +48,25 @@ Start, Stop and Restart
 
 ## Packages
 > sudo apt update
+
 > sudo apt upgrade
+
 > sudo apt install _package_name_
+
 > sudo apt remove _package_name_
+
 > sudo apt purge _package_name_
+
 > sudo apt autoremove
+
 > sudo apt clean
 
 ## File
 ### find
 > find / -iname "nome_file"
-> find / -iname "'*.csv*'"
+
+> find / -iname "'*'.csv"
+
 > find / -size +1000M -iname "nome_file"
 
 ## Terminal

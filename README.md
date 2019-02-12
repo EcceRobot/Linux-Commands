@@ -37,9 +37,14 @@ Check the status of the running precess
 
 (quit with ctrl+z)
 
-
 Check the status of a defined service
-> sudo service name-of_the_service status
+> sudo service name_of_the_service status
+
+Start, Stop and Restart
+> sudo service name_of_the_service start
+> sudo service name_of_the_service stop
+> sudo service name_of_the_service restart
+
 
 
 ## File system
@@ -85,7 +90,11 @@ will store the results into the file.
 
 The command >> will append the result, without deleting the previuos content of the file.
 
+
 > speedtest-cli --csv >> speedtest-cli-log.txt
+
+## SSH
+> sudo ssh -p port_number ip_address -l user_name
 
 
 Learn markdown syntax at https://guides.github.com/features/mastering-markdown/

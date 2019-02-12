@@ -24,28 +24,24 @@ top is a set of protocols for networks that performs distributed information pro
 TOP can sort tasks by CPU usage, memory usage and runtime.
 
 ### htop
-An interactive system-monitor process-viewer and process-manager. It is designed as an alternative to the Unix program top.
+An __interactive__ system-monitor process-viewer and process-manager. It is designed as an alternative to the Unix program top.
 
 
 ### service
-Check the status of the running precess 
+Check the status of the running precess (quit with ctrl+z) 
 > sudo service --status-all
 
 > sudo service --status-all | more
 
 > sudo service --status-all | less
 
-(quit with ctrl+z)
-
 Check the status of a defined service
-> sudo service name_of_the_service status
+> sudo service _name_of_the_service_ status
 
 Start, Stop and Restart
-> sudo service name_of_the_service start
-> sudo service name_of_the_service stop
-> sudo service name_of_the_service restart
-
-
+> sudo service _name_of_the_service_ start
+> sudo service _name_of_the_service_ stop
+> sudo service _name_of_the_service_ restart
 
 ## File system
 ### pwd
@@ -56,7 +52,7 @@ The history function shows all the commands used since the start of the current 
 ## User management
 ### passwd
 Admins use passwd to update a user's current password.
-> sudo passwd new-user
+> sudo passwd _new_user_name_
 
 ### w
 Provides a quick summary of every user logged into a computer, what each user is currently doing, and what load all the activity is imposing on the computer itself.
@@ -79,24 +75,25 @@ Command line interface for testing internet bandwidth
 First install with
 > sudo apt install speedtest-cli
 
+and then just 
+> $ speedtest-cli
 
 ## Log
 ### > and >>
 If you want to store the output of a cli command into a file you can use >.
 
-> speedtest-cli --csv > speedtest-cli-log.txt
+> speedtest-cli --csv > _name_of_the_file_.txt
 
 will store the results into the file.
 
 The command >> will append the result, without deleting the previuos content of the file.
 
 
-> speedtest-cli --csv >> speedtest-cli-log.txt
+> speedtest-cli --csv >> _name_of_the_file_.txt
 
 ## SSH
-> sudo ssh -p port_number ip_address -l user_name
+> sudo ssh -p _port_number_ _ip_address_ -l _user_name_
 
-~~-------------------------------------------------------------------------------------------------------------------------~~
 
 ##
 

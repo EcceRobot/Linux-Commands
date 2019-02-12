@@ -3,12 +3,13 @@
 ## Status
 ### Check OS version
 Several modes:
-> cat /etc/os-release
-
 > lsb_release -a
+
+> cat /etc/os-release
 
 > hostnamectl
 
+### Check kernel version
 > uname -r
 
 ### df
@@ -22,6 +23,25 @@ top is a set of protocols for networks that performs distributed information pro
 
 TOP can sort tasks by CPU usage, memory usage and runtime.
 
+### htop
+An interactive system-monitor process-viewer and process-manager. It is designed as an alternative to the Unix program top.
+
+
+### service
+Check the status of the running precess 
+> sudo service --status-all
+
+> sudo service --status-all | more
+
+> sudo service --status-all | less
+
+(quit with ctrl+z)
+
+
+Check the status of a defined service
+> sudo service name-of_the_service status
+
+
 ## File system
 ### pwd
 The print working directory command displays the name of the current working directory.
@@ -32,6 +52,9 @@ The history function shows all the commands used since the start of the current 
 ### passwd
 Admins use passwd to update a user's current password.
 > sudo passwd new-user
+
+### w
+Provides a quick summary of every user logged into a computer, what each user is currently doing, and what load all the activity is imposing on the computer itself.
 
 ## Networking
 ### traceroute

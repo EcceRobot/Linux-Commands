@@ -65,7 +65,7 @@ Start, Stop and Restart
 ### find
 > find / -iname "nome_file"
 
-> find / -iname "'*'.csv"
+> find / -iname "*.csv"
 
 > find / -size +1000M -iname "nome_file"
 

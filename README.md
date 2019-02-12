@@ -16,6 +16,9 @@ Several modes:
 This command displays the amount of disk space available on the file system containing each file name argument. 
 
 With no file name, the df command shows the available space on all the currently mounted file systems.
+> df -h
+_-h, --human-readable  print sizes in powers of 1024 (e.g., 1023M)_
+
 ### free
 With the free command, admins can see the total amount of free and used physical memory and swap space in the system, as well as the buffers and cache used by the kernel.
 ### top

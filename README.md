@@ -66,6 +66,10 @@ Start, Stop and Restart
 > sudo dpkg -i _package_name_.deb
 
 ## File
+### chmod
+Permission to read, write, & execute for owner, group and others, recursive
+> sudo chmod -R 777 _folder_name_
+
 ### find
 Cercare file per nome, non case sensitive
 > find / -iname _nome_file_

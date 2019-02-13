@@ -1,6 +1,11 @@
 # Linux-Commands
 
 ## System
+
+### Users
+Add user to sudo group and let him use "sudo"
+> sudo adduser _user_name_ sudo
+
 ### Check OS version
 Several modes:
 > lsb_release -a

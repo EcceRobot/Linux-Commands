@@ -17,6 +17,7 @@ This command displays the amount of disk space available on the file system cont
 
 With no file name, the df command shows the available space on all the currently mounted file systems.
 > df -h
+
 _-h, --human-readable  print sizes in powers of 1024 (e.g., 1023M)_
 
 ### free

@@ -35,8 +35,7 @@ TOP can sort tasks by CPU usage, memory usage and runtime.
 ### htop
 An __interactive__ system-monitor process-viewer and process-manager. It is designed as an alternative to the Unix program top.
 
-
-### service
+### Services with _service_ command (Debian 8 Jessie)
 Check the status of the running precess (quit with ctrl+z) 
 > sudo service --status-all
 
@@ -51,6 +50,25 @@ Start, Stop and Restart
 > sudo service _name_of_the_service_ start
 > sudo service _name_of_the_service_ stop
 > sudo service _name_of_the_service_ restart
+
+### Services with _systemd_ command (Debian 9 Stretch)
+
+The most notable distribution using systemd is Fedora. Though it is used by many others. Additionally, with Debian having chosen to go with systemd over upstart, it will become the defacto upstart system for most distributions (ubuntu has already announced they will be dropping upstart for systemd).
+List services:
+> systemctl list-unit-files
+
+Start service:
+> systemctl start _name_of_the_service_
+
+Stop service:
+> systemctl stop _name_of_the_service_
+
+Enable service (at startup)
+> systemctl enable _name_of_the_service_
+
+Disable service
+> systemctl disable _name_of_the_service_
+
 
 ### fonts
 

@@ -52,6 +52,12 @@ Start, Stop and Restart
 > sudo service _name_of_the_service_ stop
 > sudo service _name_of_the_service_ restart
 
+### fonts
+
+Install a font manually by downloading the appropriate .ttf or otf files and placing them into _/usr/local/share/fonts_.
+
+These files should have the permission 644 (-rw-r--r--), otherwise they may not be usable. 
+
 ## Packages
 ### apt
 > sudo apt update
@@ -152,6 +158,7 @@ The command >> will append the result, without deleting the previuos content of 
 ## Running Linux in Virtualbox 
 ### Shared folder permissions
 > sudo adduser _user_name_ vboxsf
+
 
 
 

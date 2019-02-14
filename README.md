@@ -205,9 +205,18 @@ The command >> will append the result, without deleting the previuos content of 
 > speedtest-cli --csv >> _name_of_the_file_.txt
 
 ## SSH
+
+### SSH client
 > sudo ssh -p _port_number_ _ip_address_ -l _user_name_
 
+### SSH server
+You need a SSH server installed
+> $ sudo apt-get install openssh-server
 
+On Debian, the default behavior of OpenSSH server is that it will start automatically as soon as it is installed. 
+
+You can also check whether OpenSSH server is running on it with the following command:
+> $ sudo systemctl status ssh
 
 ## Running Linux in Virtualbox 
 ### Shared folder permissions

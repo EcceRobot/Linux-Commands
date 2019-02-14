@@ -136,13 +136,11 @@ Go in _/etc/network/interfaces_ configuration file
 >        netmask 255.255.255.0
 >        gateway 192.0.2.254
 
-##### DNSnameserver 12.34.56.78
-nameserver 12.34.56.79
-and the assign the **DNS** in _/etc/resolv.conf_ configuration file
-
+and then assign the **DNS** in _/etc/resolv.conf_ configuration file
 > nameserver 8.8.8.8
 
-
+after the setting restart the service
+> systemctl restart networking
 
 
 #### static IP without internet

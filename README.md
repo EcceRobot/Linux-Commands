@@ -78,10 +78,10 @@ Permission to read, write, & execute for owner, group and others, recursive
 
 ### find
 Cercare file per nome, non case sensitive
-> find / -iname _nome_file_
+> find / -iname "_nome_file_"
 
 Cercare file per nome, case sensitive
-> find / -name _nome_file_
+> find / -name "_nome_file_"
 
 Cercare file con nome contenente una parte indicata
 > find / -iname "*.csv"

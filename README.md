@@ -124,16 +124,22 @@ Go in _/etc/network/interfaces_ configuration file
 > sudo nano /etc/network/interfaces
 
 #### DHCP
-_auto eth0
-allow-hotplug eth0
-iface eth0 inet dhcp_
+_auto eth0_
+
+_allow-hotplug eth0_
+
+_iface eth0 inet dhcp_
 
 #### static IP
-_auto eth0
-iface eth0 inet static
-address 192.0.2.7
-netmask 255.255.255.0
-gateway 192.0.2.254_
+_auto eth0_
+
+_iface eth0 inet static_
+
+_address 192.0.2.7_
+
+_netmask 255.255.255.0_
+
+_gateway 192.0.2.254_
 
 and then assign the **DNS** in _/etc/resolv.conf_ configuration file
 > nameserver 8.8.8.8
@@ -143,10 +149,25 @@ after the setting restart the service
 
 
 #### static IP without internet
-_auto eth0
-_iface eth0 inet static
-_address 192.0.2.7
-_netmask 255.255.255.0
+_auto eth0_
+
+_iface eth0 inet static_
+
+_address 192.0.2.7_
+
+_netmask 255.255.255.0_
+
+
+
+    auto eth0
+
+    iface eth0 inet static
+
+       address 192.0.2.7
+
+       netmask 255.255.255.0
+
+       gateway 192.0.2.254
 
 
 

@@ -34,7 +34,7 @@ TOP can sort tasks by CPU usage, memory usage and runtime.
 
 ### htop
 An __interactive__ system-monitor process-viewer and process-manager. It is designed as an alternative to the Unix program top.
-
+ 
 ### Services with _service_ command (Debian 8 Jessie)
 Check the status of the running precess (quit with ctrl+z) 
 > sudo service --status-all

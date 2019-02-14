@@ -117,6 +117,42 @@ Admins use passwd to update a user's current password.
 Provides a quick summary of every user logged into a computer, what each user is currently doing, and what load all the activity is imposing on the computer itself.
 
 ## Networking
+
+### IP assignment
+Go in _/etc/network/interfaces_ configuration file
+
+> sudo nano /etc/network/interfaces
+
+#### DHCP
+
+> auto eth0
+>   allow-hotplug eth0
+>   iface eth0 inet dhcp
+
+#### static IP
+>    auto eth0
+>    iface eth0 inet static
+>        address 192.0.2.7
+>        netmask 255.255.255.0
+>        gateway 192.0.2.254
+
+##### DNSnameserver 12.34.56.78
+nameserver 12.34.56.79
+and the assign the **DNS** in _/etc/resolv.conf_ configuration file
+
+> nameserver 8.8.8.8
+
+
+
+
+#### static IP without internet
+>    auto eth0
+>    iface eth0 inet static
+>        address 192.0.2.7
+>        netmask 255.255.255.0
+
+
+
 ### traceroute
 The traceroute function determines and records a route through the internet between two computers and is useful for troubleshooting network/router issues. 
 

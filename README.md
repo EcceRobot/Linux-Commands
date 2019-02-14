@@ -126,14 +126,20 @@ Go in _/etc/network/interfaces_ configuration file
 #### DHCP
 
 > auto eth0
+
 >   allow-hotplug eth0
+
 >   iface eth0 inet dhcp
 
 #### static IP
 >    auto eth0
+
 >    iface eth0 inet static
+
 >        address 192.0.2.7
+
 >        netmask 255.255.255.0
+
 >        gateway 192.0.2.254
 
 and then assign the **DNS** in _/etc/resolv.conf_ configuration file
@@ -145,8 +151,11 @@ after the setting restart the service
 
 #### static IP without internet
 >    auto eth0
+
 >    iface eth0 inet static
+
 >        address 192.0.2.7
+
 >        netmask 255.255.255.0
 
 

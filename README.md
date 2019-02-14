@@ -206,10 +206,10 @@ The command >> will append the result, without deleting the previuos content of 
 
 ## SSH
 
-### SSH client
+### client
 > sudo ssh -p _port_number_ _ip_address_ -l _user_name_
 
-### SSH server
+### server
 You need a SSH server installed
 > $ sudo apt-get install openssh-server
 
@@ -222,7 +222,7 @@ You can also check whether OpenSSH server is running on it with the following co
 ### Shared folder permissions
 > sudo adduser _user_name_ vboxsf
 
-## JAVA
+## Java
 Check if Java is already installed:
 > java -version
 

@@ -222,8 +222,22 @@ You can also check whether OpenSSH server is running on it with the following co
 ### Shared folder permissions
 > sudo adduser _user_name_ vboxsf
 
+## JAVA
+Check if Java is already installed:
+> java -version
+If Java is not currently installed, you'll see the following output:
+> -bash: java: command not found
+Execute the following command to install OpenJDK:
+> sudo apt install default-jre
+This command will install the Java Runtime Environment (JRE). This will allow you to run almost all Java software.
+Verify the installation again.
 
+You may need the Java Development Kit (JDK) in addition to the JRE in order to compile and run some specific Java-based software. 
 
+To install the JDK, execute the following command, which will also install the JRE:
+> sudo apt install default-jdk
+Verify that the JDK is installed by checking the version of javac, the Java compiler:
+> javac -version
 
 ##
 

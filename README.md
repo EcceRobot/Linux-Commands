@@ -261,6 +261,22 @@ To install the JDK, execute the following command, which will also install the J
 Verify that the JDK is installed by checking the version of javac, the Java compiler:
 > javac -version
 
+## Solve backlight issue
+
+Create file /usr/share/X11/xorg.conf.d/20-intel.conf
+
+and write:
+
+```
+Section "Device"
+    Identifier  "Card0"
+    Driver      "intel"
+    Option       "Backlight" "intel_backlight"
+EndSection
+```
+and then reboot the system.
+
+
 ##
 
 Learn markdown syntax at https://guides.github.com/features/mastering-markdown/

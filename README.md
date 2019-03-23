@@ -104,6 +104,15 @@ Remove a folder
 rmdir <directoryname>
 ```
 
+### rm -rf
+
+Remove a folder and all content
+
+```
+rm -rf <directoryname>
+```
+
+
 ### chmod
 Permission to read, write, & execute for owner, group and others, recursive
 > sudo chmod -R 777 _folder_name_

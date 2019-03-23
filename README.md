@@ -101,7 +101,7 @@ These files should have the permission 644 (-rw-r--r--), otherwise they may not 
 
 Remove a folder
 ```
-rmdir _directory-name_
+rmdir <directoryname>
 ```
 
 ### chmod

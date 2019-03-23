@@ -96,6 +96,14 @@ These files should have the permission 644 (-rw-r--r--), otherwise they may not 
 > sudo dpkg -i _package_name_.deb
 
 ## File
+
+### rmdir 
+
+Remove a folder
+```
+rmdir _directory-name_
+```
+
 ### chmod
 Permission to read, write, & execute for owner, group and others, recursive
 > sudo chmod -R 777 _folder_name_
@@ -118,7 +126,7 @@ Cerca file contenti la stringa indicata nel percorso indicato
 > grep -Iri 'cane' /home
 
 
-## Terminal
+## Terminal management
 ### pwd
 The print working directory command displays the name of the current working directory.
 ### history

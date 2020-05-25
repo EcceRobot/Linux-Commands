@@ -294,6 +294,14 @@ EndSection
 and then reboot the system.
 
 
+## Others
+
+It might be useful to execute the script in the background by using the option "nohup"
+```
+sudo nohup eclipse
+```
+and so you can close terminal without closing eclipse.
+
 ##
 
 Learn markdown syntax at https://guides.github.com/features/mastering-markdown/

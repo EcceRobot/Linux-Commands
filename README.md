@@ -302,6 +302,22 @@ sudo nohup eclipse
 ```
 and so you can close terminal without closing eclipse.
 
-##
+## Processing Headless
+
+https://github.com/processing/processing/wiki/Running-without-a-Display
+
+You need to install
+```
+sudo apt-get install xvfb libxrender1 libxtst6 libxi6 
+```
+and then you can launch the exported application
+```
+xvfb-run ./my-processing-application
+```
+if running on a servcer it could be useful to execute in the background
+```
+nohup xvfb-run ./my-processing-application
+```
+
 
 Learn markdown syntax at https://guides.github.com/features/mastering-markdown/

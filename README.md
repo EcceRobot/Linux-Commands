@@ -320,4 +320,10 @@ nohup xvfb-run ./my-processing-application
 ```
 
 
+## Understanding where a command is located
+```
+which python3
+/usr/bin/python3
+```
+
 Learn markdown syntax at https://guides.github.com/features/mastering-markdown/

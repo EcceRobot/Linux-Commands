@@ -1,7 +1,8 @@
 # Linux-Commands
 
 ## System
-
+which python3
+/usr/bin/python3
 ### Users
 Add user to sudo group and let him use "sudo"
 > sudo adduser _user_name_ sudo
@@ -323,6 +324,9 @@ nohup xvfb-run ./my-processing-application
 ## Understanding where a command is located
 ```
 which python3
+```
+would return
+```
 /usr/bin/python3
 ```
 

@@ -1,8 +1,7 @@
 # Linux-Commands
 
 ## System
-which python3
-/usr/bin/python3
+
 ### Users
 Add user to sudo group and let him use "sudo"
 > sudo adduser _user_name_ sudo
@@ -329,5 +328,16 @@ would return
 ```
 /usr/bin/python3
 ```
+
+## Command at startup
+
+Devo lanciare il comando
+```
+export VISUAL=nano; crontab -e
+```   
+che mi permette di aprire il file di crontab da nano e non da vim come sarebbe di default, e poi dentro inserisco la voce:
+```   
+@reboot <mycommand>
+```   
 
 Learn markdown syntax at https://guides.github.com/features/mastering-markdown/

@@ -339,5 +339,18 @@ che mi permette di aprire il file di crontab da nano e non da vim come sarebbe d
 ```   
 @reboot <mycommand>
 ```   
+altrimento posso creare uno script al cui interno inserisco:
+```
+#write out current crontab
+crontab -l > mycron
+#echo new cron into cron file
+echo "00 09 * * 1-5 echo hello" >> mycron
+#install new cron file
+crontab mycron
+rm mycron
+```
+
+
+
 
 Learn markdown syntax at https://guides.github.com/features/mastering-markdown/

@@ -5,7 +5,7 @@
 ### Users
 Add user to sudo group and let him use "sudo"
 > sudo adduser _user_name_ sudo
-echo "00 09 * * 1-5 echo hello" >> mycron
+
 ### Check OS version
 Several modes:
 > lsb_release -a

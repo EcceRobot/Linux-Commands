@@ -5,7 +5,7 @@
 ### Users
 Add user to sudo group and let him use "sudo"
 > sudo adduser _user_name_ sudo
-
+echo "00 09 * * 1-5 echo hello" >> mycron
 ### Check OS version
 Several modes:
 > lsb_release -a
@@ -342,12 +342,12 @@ che mi permette di aprire il file di crontab da nano e non da vim come sarebbe d
 altrimento posso creare uno script al cui interno inserisco:
 ```
 #write out current crontab
-crontab -l > mycron
+crontab -l > temp_mycron.txt
 #echo new cron into cron file
-echo "00 09 * * 1-5 echo hello" >> mycron
+echo "@reboot <mycommand>" >> temp_mycron.txt
 #install new cron file
-crontab mycron
-rm mycron
+crontab temp_mycron.txt
+rm temp_mycron.txt
 ```
 
 

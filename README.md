@@ -111,6 +111,11 @@ Remove a folder and all content
 ```
 rm -rf <directoryname>
 ```
+## find a biggest files in /
+
+```
+sudo du -a / 2>/dev/null | sort -n -r | head -n 20
+```
 
 
 ### chmod

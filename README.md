@@ -111,12 +111,17 @@ Remove a folder and all content
 ```
 rm -rf <directoryname>
 ```
-## find a biggest files in /
+## find biggest files and directories in /
 
 ```
 sudo du -a / 2>/dev/null | sort -n -r | head -n 20
 ```
 
+## find biggest files but not directories in /
+
+```
+find / -type f -printf '%s %p\n'| sort -nr
+```
 
 ### chmod
 Permission to read, write, & execute for owner, group and others, recursive

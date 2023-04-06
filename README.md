@@ -120,7 +120,7 @@ sudo du -a / 2>/dev/null | sort -n -r | head -n 20
 ## find biggest files but not directories in /
 
 ```
-find / -type f -printf '%s %p\n'| sort -nr
+find / 2>/dev/null -type f -printf '%s %p\n'| sort -nr | head -n 20
 ```
 
 ### chmod

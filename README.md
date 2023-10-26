@@ -144,6 +144,9 @@ Il comendo seguente trova tutti i file, con qualunque nome, che abbiano dimensio
 Cerca file contenti la stringa indicata nel percorso indicato
 > grep -Iri 'cane' /home
 
+Cerca file contenti la stringa indicata nel percorso indicato senza mostrare il contenuto ma solo il percorso del file che la contiene (suggerito) 
+> grep -lIri 'cane' /home
+
 
 ## Terminal management
 ### pwd
